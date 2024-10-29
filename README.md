@@ -14,6 +14,7 @@ A collection of solutions for the daily problems on LeetCode. Solutions are cate
 - **solution.R**: The solution using R.
 - 
 Daily_Problems/
+```
 ├── Easy/
 │   ├── 344. Reverse String/
 │   │   ├── solution.R
@@ -23,7 +24,8 @@ Daily_Problems/
 │   └── ...
 └── Hard/
     └── ...
-  
+```
+
 ## How to Use This Repository
 - Navigate to the desired category (e.g., `SQL Top 50 Q` or `Daily Problems`).
 - Inside each category, find solutions to individual problems, organized by their LeetCode problem names.
