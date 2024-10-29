@@ -10,11 +10,22 @@ A collection of solutions for the top 50 SQL questions on LeetCode. Solutions ar
 
 ### Daily Problems
 A collection of solutions for the daily problems on LeetCode. Solutions are categorized under each question names. Each question folder contains:
-- **Python**: The solution using Python.
-- **R**: The solution using R.
+- **solution.py**: The solution using Python.
+- **solution.R**: The solution using R.
+- 
+Daily_Problems/
+├── Easy/
+│   ├── 344. Reverse String/
+│   │   ├── solution.R
+│   │   └── solution.py
+│   └── ...
+├── Medium/
+│   └── ...
+└── Hard/
+    └── ...
   
 ## How to Use This Repository
-- Navigate to the desired category (e.g., `SQL Top 50 Q` or `Introduction to Pandas`).
+- Navigate to the desired category (e.g., `SQL Top 50 Q` or `Daily Problems`).
 - Inside each category, find solutions to individual problems, organized by their LeetCode problem names.
 
 ## Contributing
