@@ -7,6 +7,20 @@ A collection of solutions for the top 50 SQL questions on LeetCode. Solutions ar
 - **MySQL Solution**: The solution using MySQL.
 - **MsSQL Solution**: The solution using MsSQL.
 - **Pandas Solution**: The solution using Pandas in Python.
+```
+SQL_Top_50_Q/
+├── Select/
+│   ├── Recyclable and Low Fat Products/
+│   │   ├── MySQL_solution.sql
+│   │   ├── Pandas_solution.py
+│   │   └── MsSQL_solution.sql
+│   └── ...
+│
+├── Basic Joins/
+│   ├── Replace Employee ID With The Unique Identifier/
+│   └── ...
+├── ...
+```
 
 ### Daily Problems
 A collection of solutions for the daily problems on LeetCode. Solutions are categorized under each question names. Each question folder contains:
