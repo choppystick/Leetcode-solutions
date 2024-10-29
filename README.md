@@ -1,6 +1,6 @@
 # LeetCode Solutions Repository
 
-This repository contains my solutions to a variety of LeetCode problems, organized by topics and categories, including SQL queries, Pandas exercises, and the LeetCode 75 series. Each problem folder includes solutions in MySQL, MsSQL, R and Pandas where applicable.
+This repository contains my solutions to a variety of LeetCode problems, organized by topics and categories, including SQL queries, Pandas exercises, and the LeetCode 75 series. Each problem folder includes solutions in MySQL, MsSQL, R and Python where applicable.
 
 ### SQL Top 50 Q
 A collection of solutions for the top 50 SQL questions on LeetCode. Solutions are categorized under topics like `SELECT` and `BASIC JOINS`. Each question folder contains:
