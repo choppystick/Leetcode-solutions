@@ -1,0 +1,1 @@
+-- MySQL solution for Customers Who Bought All Products

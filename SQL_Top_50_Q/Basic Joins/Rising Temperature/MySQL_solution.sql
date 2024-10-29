@@ -1,0 +1,1 @@
+-- MySQL solution for Rising Temperature
