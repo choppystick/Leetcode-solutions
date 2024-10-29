@@ -1,1 +1,0 @@
--- MySQL solution for Patients With a Condition

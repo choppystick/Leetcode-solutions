@@ -1,1 +1,0 @@
--- MySQL solution for Average Selling Price
