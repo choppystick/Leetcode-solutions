@@ -1,0 +1,21 @@
+class Solution:
+    def removeSubfolders(self, folder: List[str]) -> List[str]:
+        folder.sort()
+        
+        result = []
+        result.append(folder[0])
+        
+        for i in range(1, len(folder)):
+            current = folder[i]
+            last_parent = result[-1]
+            
+            # Check if current folder is a subfolder of the last parent folder
+            # We need to check if it starts with parent path AND has a "/" after
+            is_subfolder = (current.startswith(last_parent) and 
+                          len(current) > len(last_parent) and 
+                          current[len(last_parent)] == '/')
+            
+            if not is_subfolder:
+                result.append(current)
+        
+        return result

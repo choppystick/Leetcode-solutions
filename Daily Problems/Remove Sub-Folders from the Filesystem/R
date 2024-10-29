@@ -1,0 +1,29 @@
+removeSubfolders <- function(folder) {
+  folder <- sort(folder)
+  
+  result <- c(folder[1])
+  
+  for (i in 2:length(folder)) {
+    current <- folder[i]
+    last_parent <- result[length(result)]
+    
+    is_subfolder <- FALSE
+    if (startsWith(current, last_parent)) {
+      remaining_path <- substr(current, nchar(last_parent) + 1, nchar(last_parent) + 1)
+      is_subfolder <- nchar(current) > nchar(last_parent) && remaining_path == "/"
+    }
+    
+    if (!is_subfolder) {
+      result <- c(result, current)
+    }
+  }
+  
+  return(result)
+}
+
+# Test cases
+folders <- c("/a", "/a/b", "/c/d", "/c/d/e", "/c/f")
+folders2 <- c("/a","/a/b/c","/a/b/d")
+folders3 <- c("/a/b/c","/a/b/ca","/a/b/d")
+result <- removeSubfolders(folders3)
+print(result) 
