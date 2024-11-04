@@ -43,6 +43,7 @@ Daily_Problems/
 ## How to Use This Repository
 - Navigate to the desired category (e.g., `SQL Top 50 Q` or `Daily Problems`).
 - Inside each category, find solutions to individual problems, organized by their LeetCode problem names.
+- create-problems.py is for updating the structure of the repo.
 
 ## Contributing
 If you'd like to contribute or improve solutions, feel free to fork this repository, make updates, and submit a pull request!
